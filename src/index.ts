@@ -6,5 +6,5 @@ app.use('/',userRoutes)
 app.use('/admin', adminRoutes)
 
 app.listen(3000,()=>{
-    console.log('Server Status is update to utho cloud')
+    console.log('Server Status is update to utho ')
 })
