@@ -35,7 +35,7 @@ jobs:
         host: ${{secrets.SSH_HOST}}
         username: ${{secrets.SSH_USERNAME}}
         key: ${{secrets.SSH_KEY}}
-        port: 15982
+        port: 18151
         script: |
           sudo docker pull higaurav/server:latest
           sudo docker stop nodeserver || true
